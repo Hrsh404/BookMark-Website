@@ -1,0 +1,59 @@
+body {
+  background-image: url("background.jpg");
+  background-size: cover; /* Use cover to ensure the background image covers the entire viewport */
+  font-family: Arial, sans-serif; /* Use a common font for better readability */
+}
+
+#shopping-cart {
+  margin: 50px auto; /* Center the shopping cart */
+  max-width: 800px; /* Limit the maximum width of the shopping cart */
+  padding: 30px;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 15px;
+  text-align: center;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4c95af;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Add transition for smoother hover effect */
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Apply animation to elements */
+.animated {
+  animation: fadeIn 0.5s ease-in-out;
+}
